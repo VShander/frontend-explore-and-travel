@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Explore and Travel</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navigation">
+        <div class="logo">
+          <img src="img/logo.svg" alt="logo">
+        </div>
+        <div class="m-menu">
+          <nav class="navigation-top-nav">
+            <ul class="navigation-link-items">
+              <li><a href="#" class="navigation-link active">Home</a></li>
+              <li><a href="#" class="navigation-link">Destinations</a></li>
+              <li><a href="#" class="navigation-link">About</a></li>
+              <li><a href="#" class="navigation-link">Partner</a></li>
+            </ul>
+            <div class="button-group">
+              <button class="login">Login</button>
+              <button class="register">Register</button>
+            </div>
+          </nav>
+        </div>
+        <div class="mobile-buttons">
+          <button class="m-menu-button">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+        </div>
+      </div>
+      <section class="hero">
+        <h1 class="title">Explore and <br>Travel</h1>
+        <span class="subtitle">Holiday finder</span>
+        <div class="wrapper">
+          <form action="#" class="form-options">
+            <label>
+              <select name="location" class="location">
+                <option disabled selected>Location</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              <select name="activity" class="activity">
+                <option disabled selected>Activity</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              <select name="grade" class="grade">
+                <option disabled selected>Grade</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              <select name="date" class="date">
+                <option disabled selected>Date</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <button type="submit">Explore</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </header>
+  <!-- /.header -->
+  <main class="main">
+    <div class="container">
+      <div class="main-wrapper">
+        <section class="main-description">
+          <h2 class="main-title">A new way to explore the world</h2>
+          <p class="main-description-text">
+            For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
+            trip, but now, they can also let Lonely Planet Experiences lead the way
+          </p>
+          <button class="main-button">Learn more</button>
+        </section>
+      </div>
+    </div>
+  </main>
+  <!-- /.main -->
+  <section class="destinations">
+    <div class="container">
+      <header class="destination-header">
+        <h2 class="destinations-title">Featured destinations</h2>
+        <a href="#" class="destination-link link-view-all">View all</a>
+      </header>
+      <div class="destinations-content">
+        <div class="destinations-wrapper">
+          <img src="img/Indonesia.png" alt="Indonesia" class="destinations-img">
+          <div class="destinations-source">
+            <span class="destinations-city">Raja Ampat</span>
+            <span class="destinations-country">Indonesia</span>
+          </div>
+        </div>
+        <div class="destinations-wrapper">
+          <img src="img/China.png" alt="China" class="destinations-img china">
+          <div class="destinations-source">
+            <span class="destinations-city">Fanjingshan</span>
+            <span class="destinations-country">China</span>
+          </div>
+        </div>
+        <div class="destinations-wrapper">
+          <img src="img/Switzerland.png" alt="Switzerland" class="destinations-img">
+          <div class="destinations-source">
+            <span class="destinations-city">Vevey</span>
+            <span class="destinations-country">Switzerland</span>
+          </div>
+        </div>
+        <div class="destinations-wrapper">
+          <img src="img/Montenegro.png" alt="Montenegro" class="destinations-img">
+          <div class="destinations-source">
+            <span class="destinations-city">Skadar</span>
+            <span class="destinations-country">Montenegro</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.destinations -->
+  <section class="guides">
+    <div class="container">
+      <div class="guides-wrapper">
+        <section class="guides-description">
+          <h2 class="guides-title">Guides by Thousand <br>Sunny</h2>
+          <p class="guides-description-text">
+            Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the
+            ultimate resource before and during a trip.
+          </p>
+          <button class="guides-button">Download</button>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- /.guides -->
+  <section class="feedback">
+    <div class="container">
+      <h3 class="feedback-title">Testimonials</h3>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="feedback-wrapper">
+              <div class="feedback-content">
+                <div class="feedback-stars">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                </div>
+                <p class="feedback-text">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac
+                  scelerisque
+                  eu,
+                  facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                <span class="feedback-person">Edward Newgate</span>
+                <span class="feedback-position">Founder Circle</span>
+              </div>
+              <div class="feedback-content-img">
+                <img class="feedback-img" src="img/feedback-img.png" alt="feedback-person">
+                <div class="feedback-buttons">
+                  <button class="button-prev"></button>
+                  <button class="button-next"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="feedback-wrapper">
+              <div class="feedback-content">
+                <div class="feedback-stars">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                </div>
+                <p class="feedback-text">“But why smiling man her imagine married. Chiefly can man her out believe
+                  manners cottage colonel unknown. Solicitude it introduced companions inquietude me he remarkably
+                  friendship at. My almost or horses period.”
+                </p>
+                <span class="feedback-person">Ioana Lindsey</span>
+                <span class="feedback-position">Gournalist</span>
+              </div>
+              <div class="feedback-content-img">
+                <img class="feedback-img" src="img/feedback-img2.png" alt="feedback-person">
+                <div class="feedback-buttons">
+                  <button class="button-prev"></button>
+                  <button class="button-next"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="feedback-wrapper">
+              <div class="feedback-content">
+                <div class="feedback-stars">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                  <img class="feedback-star" src="img/Star.png" alt="rating">
+                </div>
+                <p class="feedback-text">“Put all speaking her delicate recurred possible. Set indulgence inquietude
+                  discretion insensible bed why announcing. Middleton fat two satisfied additions.”</p>
+                <span class="feedback-person">Atticus Houghton</span>
+                <span class="feedback-position">Manager</span>
+              </div>
+              <div class="feedback-content-img">
+                <img class="feedback-img" src="img/feedback-img3.png" alt="feedback-person">
+                <div class="feedback-buttons">
+                  <button class="button-prev"></button>
+                  <button class="button-next"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.feedback -->
+  <section class="stories">
+    <div class="container">
+      <header class="header-stories">
+        <h3 class="header-stories-title">Trending stories</h3>
+        <a href="#" class="stories-link link-view-all">View all</a>
+      </header>
+      <div class="stories-wrapper">
+        <div class="stories-content">
+          <div class="stories-content-img-wrapper">
+            <img src="img/stories-1.png" alt="" class="stories-content-img">
+          </div>
+          <div class="stories-content-text-wrapper">
+            <h4 class="stories-content-title">The many benefits of taking a healing holiday</h4>
+            <span class="stories-content-text">‘Helaing holidays’ are on the rise tohelp maximise your health and
+              happines...</span>
+            <a href="#" class="stories-content-link">Read more</a>
+          </div>
+        </div>
+        <div class="stories-content">
+          <div class="stories-content-img-wrapper">
+            <img src="img/stories-2.png" alt="" class="stories-content-img">
+          </div>
+          <h4 class="stories-content-title">The best Kyoto restaurant to try Japanese food</h4>
+          <span class="stories-content-text">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to
+            visit...</span>
+          <a href="#" class="stories-content-link">Read more</a>
+        </div>
+        <div class="stories-content">
+          <div class="stories-content-img-wrapper">
+            <img src="img/stories-3.png" alt="" class="stories-content-img">
+          </div>
+          <h4 class="stories-content-title">Skip Chichen Itza and head to this remote Yucatan</h4>
+          <span class="stories-content-text">It’s remote and challenging to get, but braving the jungle and exploring
+            these ruins without the...</span>
+          <a href="#" class="stories-content-link">Read more</a>
+        </div>
+        <div class="stories-content">
+          <div class="stories-content-img-wrapper">
+            <img src="img/stories-4.png" alt="" class="stories-content-img">
+          </div>
+          <h4 class="stories-content-title">Surf’s up at these beginner spots around the world</h4>
+          <span class="stories-content-text">If learning to surf has in on your to-do list for a while, the good news
+            is: it’s never too late...</span>
+          <a href="#" class="stories-content-link">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.stories -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <img class="footer-logo-img" src="img/logo.svg" alt="logo">
+          <span class="footer-text">
+            Plan and book your perfect trip with expert advice, travel tips destination information from us
+          </span>
+          <span class="footer-copyright">
+            ©2020 Thousand Sunny. All rights reserved
+          </span>
+        </div>
+        <div class="footer-destinations">
+          <span class="footer-link-title">
+            Destinations
+          </span>
+          <ul class="footer-list">
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Africa</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Antarctica</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Asia</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Europe</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">America</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-shop">
+          <span class="footer-link-title">
+            Shop
+          </span>
+          <ul class="footer-list">
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Destination Guides</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Pictorial & Gifts</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Special Offers</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Delivery Times</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">FAQs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-interests">
+          <span class="footer-link-title">
+            Interests
+          </span>
+          <ul class="footer-list">
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Adventure Travel</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Art And Culture</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Wildlife And Nature</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Family Holidays</a>
+            </li>
+            <li class="footer_list_item">
+              <a href="#" class="footer_link">Food And Drink</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-social">
+        <div class="social-wrapper">
+          <a href="#"><img src="img/social/twitter.svg" alt="twitter"></a>
+          <a href="#"><img src="img/social/facebook.svg" alt="facebook"></a>
+          <a href="#"><img src="img/social/instagram.svg" alt="instagram"></a>
+          <a href="#"><img src="img/social/lindkin.svg" alt="lindkin"></a>
+          <a href="#"><img src="img/social/youtube.svg" alt="youtube"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.footer -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
